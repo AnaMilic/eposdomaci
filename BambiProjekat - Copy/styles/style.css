@@ -1,0 +1,328 @@
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+
+h4{
+ padding: 0px 15px 0px;
+  color: rgb(105, 46, 46);
+  font-size: 20px;
+}
+
+a{
+  color: black;
+  font-size: 2px;
+  padding: 2px;
+  margin:3px;
+}
+
+
+a:hover{
+  background-color: rosybrown;
+  color: black;
+}
+
+ul :hover{
+  background-color: rgb(168, 112, 112);
+}
+
+p{
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+ .m{
+  width: 40%;
+  height: 40%;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+button, #dugme1, #dugme2{
+  background-color: rgb(207, 168, 216);
+   height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px;
+     
+}
+
+body{
+  background-color: rgb(219, 181, 181);
+  
+  }
+
+  
+  .meni {
+    display: flex;
+  flex-wrap:wrap;
+    background-color: rgb(207, 162, 162);
+    margin-left: 7%;
+    margin-right: 7%;
+    align-items: flex-end;
+  
+  }
+
+.meni img{
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+ 
+.meni a {
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+  #datum{
+    width: 20%;
+   padding: 2% 4%;
+   }
+
+  .vest1, .vest2, .vest3, .vest4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  }
+
+  .vest1, .vest3{
+    background: rgb(199, 179, 179);
+   
+  }
+  
+  .vest2, .vest4{
+    background-color: rgb(184, 149, 149);
+    
+  } 
+
+  .vest1 p{
+    font-size: 22px;
+  } 
+  
+  .vest2 p {
+    font-size: 31px;
+  }
+  
+  .vest3 p{
+    font-size: 27px;
+  }
+  
+  .vest4 p{
+    font-size: 25px;
+  }
+
+  #tekst1, #tekst2, #tekst3, #tekst4{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5%;
+  }
+
+  .funkcije{
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .poslednji{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+  background-color: rgb(207, 162, 162);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#prvi, #drugi{
+  flex-basis: auto;
+padding: 15px;
+}
+
+ 
+
+.parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(228, 211, 211);
+  flex-wrap: wrap;
+}
+
+.parent div{
+  background-color: rgb(218, 150, 150);
+  margin: 30px;
+  align-items: center;
+}
+
+#div1{
+  flex-basis: 300px;
+}
+
+#div2{
+  flex-basis: 300px;
+}
+
+span{
+  color: red;
+}
+
+
+
+.istorija {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 4%;
+
+}
+
+.ist{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+
+}
+.sertifikati{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 1cm;
+  text-align: center;
+}
+#istorijatext{
+  padding-left:10%;
+  padding-right: 10%;
+  order: 1;
+  flex-basis: 200px;
+}
+
+#istorijaslike1{
+  order: 0;
+  flex-basis: 200px;
+  
+}
+#istorijaslike2{
+  
+  order: 2;
+  flex-basis: 200px;
+}
+
+#ist2{
+text-align: center;
+}
+
+.humakcija{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 1cm;
+  padding-top: 1cm;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4%;
+  padding-right: 4%;
+  
+}
+
+#akcijatext{
+  text-align: center;
+  order: 0;
+  flex-basis: 700px;
+  padding-top:1cm;
+  
+}
+
+#akcijaslika{
+ order: 1;
+ flex-basis: 400px;
+
+}
+.proizvodi{
+  flex-wrap: wrap;
+}
+
+.proizvodi img{
+ width: 40%;
+ height: auto;
+}
+
+h2,h1,h3{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+  font-style: italic;
+}
+
+table{
+  border-bottom: thin;
+  border-top: thin;
+  border-left: thin;
+  border-right: thin;
+  
+}
+.plazma {
+  padding-bottom: 1cm;
+  padding-left: 1cm;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabela{
+  padding-left: 4%;
+  flex-basis: 750px;
+  align-self: center;
+}
+.wellness{
+  padding-bottom: 1cm;
+  padding-left: 1cm;
+  display: flex;
+  flex-wrap: wrap;
+} 
+.zpek{
+  padding-bottom: 1cm;
+  padding-left: 0.5cm;
+  display: flex;
+  flex-wrap: wrap;
+}
+.yodoro{
+  padding-bottom: 1cm;
+  padding-left: 1cm;
+  display: flex;
+  flex-wrap: wrap;
+}
+.jos{
+  padding-bottom: 1cm;
+  padding-left: 1cm;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cokolade{
+  padding-bottom: 1cm;
+  padding-left: 1cm;
+  display: flex;
+  flex-wrap: wrap;
+}
+th{
+  background-color: wheat;
+}
+td{
+  text-align: center;
+  background-color:beige;
+}
+
+.slider{
+  width: 540px;
+  margin: 40px auto;
+}
+
+.slider img{
+  width: 500px;
+  height: 300px;
+}
+
+
+
+
+
+

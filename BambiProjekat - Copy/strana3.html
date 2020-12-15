@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    <script src="script/jscript.js"></script>
+    <title>Bambi-O nama</title>
+</head>
+<body>
+    <script src="script/jscript.js"></script>
+
+    
+    <header>
+      <div class="meni">
+         <a href="index.html">
+           <img href="index.html" src="images/logo.jpg" height="130" width="200">
+         </a>
+         <a href="index.html">Početna</a>
+         <a href="strana2.html">Proizvodi</a>
+         <a href="strana3.html">O nama</a>
+         <a href="strana4.html">Registracija</a>
+         <div id="datum">
+         <button type="button" onclick="displayDate()" ><b><i>Datum</i></b></button>
+         <p id="showDate" style="color: rgb(145, 45, 45);"><i></i></p>
+         </div>
+      </header>
+       <hr>
+    <br>
+    <h2>Istorija</h2>
+    <div class="istorija">
+        <div class="ist">
+         <div id="istorijatext">
+            <p>Bambi je kompanija koja se bavi proizvodnjom konditorski i prehrambenih proizvoda. Osnovana je 1967. godine u Požarevcu. Druga kompanija se takođe nalazi u Požarevcu od 1986. godine. 2008. godine Bambi 3 iz Braničeva je spojen sa Bambi 2 kompanijom.</p>
+        </div>
+        <div id="istorijaslike1">
+            <img src="images/kompanija.jpg" width="500" height="400">
+        </div>
+        <div id="istorijaslike2">
+            <img src="images/komapnija2.jpg" width="250" height="400">
+        </div>
+        </div>
+        <br>
+        <div id="ist2">
+            <p>Bambi je prvo počeo kao kompanija za proizvodnju dečijeg keksa, a kasnije i današnjom prvom asocijacijom Plazmom. 2006. godine spaja se sa Banatom iz Vršca i nastaje Koncern Bambi-Banat. 2015. godine zajedno sa kompanijama Imlek i Knjaz Miloš dobija novog vlasnika koji predstavlja investicioni fond iz Londona pod nazivom Mid Europe Partners, a 2016. Banat dobija vlasnika Swisslion Takovo kada dolazi do razdvajanja ove dve kompanije. Danas, Bambi sadrži nekoliko poznatih brendova koji su se godinama razvijali. Neki od njih su<i>Wellness, Josh!, Juhu, Zlatni pek, Boni</i>bombone i drugi.</p>
+        </div>
+        
+    </div>
+    <hr>
+    <div class="sertifikati">
+        <h2>Sertifikati i nagrade</h2>
+        <br>
+        <p>Bambi teži ispunjavanju svetskih standarda po pitanju kvaliteta. Bambi je prvi u Saveznoj Republici Jugoslaviji dobio sertifikat ISO 9001 2000. godine. 2002. godine dobio je HACCP za higijenu. U oktobru 2004. ISO 14001 za sistem upravljanja zaštitom životne sredine, dok je u jesen 2009. dobijen HALAL, koji je pogodan za ljude muslimanske veroispovesti, za preko 80 proizvoda. Za bezdednost hrane su decembra 2011. godine dobijeni serfitikati ISO 22000 i FSSC 22000. Pored svih ovih, kompanija Bambi je dobila i OHSAS 18001, EMS 14001 i QMS 9001, dok su mnogi proizvodi označeni kao pogodni za vegetarijance.</p>
+        <p>Neke od nagrada koje je Bambi dobio su: Najbolja komunikacija 2007, Biznis partner, Najbolji partner i Najvoljeniji domaći brend 2008, Najbolje iz Srbije 2008. i 2012, Kompanija broj 1 i Inovativna primena novih tehnologija 2009, Beogradski pobednik i Moj izbor 2010.</p>
+        
+    </div>
+    <hr>
+    <br>
+    <h2>Humanitarna akcija "Magični doručak"</h2>
+    <div class="humakcija">
+            
+        <div id="akcijatext">
+            <p>"Magični doručak" predstavlja tradicionalnu humanitarnu akciju za koju su sporazum 2016. godine potpisali Crédit Agricole banka Srbija, kompanija METRO Cash & Carry Srbija i kompanija Bambi u saradnji sa Sekretarijatom za obrazovanje i dečju zaštitu Gradske uprave Grada Beograda i nevladinom humanitarnom organizacijom Banka Hrane. Crédit Agricole, METRO Cash & Carry i Bambi će donirati proizvode i sredstva za najmlađe, dok se kompanija Coca-Cola Hellenic Srbija, tradicionalni prijatelj projekta, akciji priključila doniranjem sokova za svaki paketić. Cilj ove akcije je prikupljanje hrane za škole za decu sa smetnjama u razvoju.</p>
+        </div>
+        
+          
+          <div class="slider">
+            <img src="images/akcija.jpg"  width="430" height="300" >
+            <img src="images/akcija 2.jpg"width="430" height="300" >
+            <img src="images/akcija 3.jpg" width="430" height="300">
+          </div>
+          
+        
+    </div>
+    
+    <div class="funkcije">
+      <div>
+    <button onclick="pronadjiLokaciju()" style=" border-radius: 3px; height: 20px; width: 60px; border: 0px;"  value="Saznaj više"><b><i>Lokacija:</i></b> </button>
+    <p id="lokacija"></p>
+      </div>
+      <ul>
+      <li onclick="Vrh()">Vrati me na vrh</li>
+      </ul>
+    </div>
+<hr>
+<footer>
+  <div class="poslednji">
+    <div id="prvi">
+      <h4><i>PRONAĐITE NAS<i></i></h4><br>
+     <h4> Bambi Adresa:</h4><br>
+      <h4>Koncern „Bambi“ a.d.</h4> <br>
+        <h4>Đure Đakovića bb</h4><br>
+        <br>
+    </div>
+
+      <div id="drugi">
+        <h4><i>Kontakt telefon:<i></h4><br>
+       <h4> 065272828</h4><br>
+        <h4>Besplatna linije za potrošače:</h4> <br>
+          <h4>0653832028</h4><br>
+          <br>
+      </div>
+ </div>
+   </footer>
+
+</body>
+</html>

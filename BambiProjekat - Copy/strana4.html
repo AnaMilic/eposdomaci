@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <title>Bambi-Registracija</title>
+    
+</head>
+<body>
+  <script src="script/jscript.js"></script>
+
+  <header>
+    <div class="meni">
+       <a href="index.html">
+         <img href="index.html" src="images/logo.jpg" height="130" width="200">
+       </a>
+       <a href="index.html">Početna</a>
+       <a href="strana2.html">Proizvodi</a>
+       <a href="strana3.html">O nama</a>
+       <a href="strana4.html">Registracija</a>
+       <div id="datum">
+       <button type="button" onclick="displayDate()" ><b><i>Datum</i></b></button>
+       <p id="showDate" style="color: rgb(145, 45, 45);"><i></i></p>
+       </div>
+    </header>
+     <hr>
+ 
+ 
+   
+     <hr>
+  
+
+      <br>
+
+      <div class="parent">
+      <div clas="div1">
+          <form name="registracija" onsubmit="return validate()">
+            <br>
+            <br>
+          <p><h1>Nemaš profil? Registruj se ovde.</h1></p>
+          <br>
+          <br>
+          <p>
+          <label for="ime">Ime:</label>
+          <input id="ime" name="ime" type="text">
+          <br>
+          <span id="greskaIme"></span>
+          <br>
+        </p>
+        <p>
+          <label for="prezime">Prezime:</label>
+          <input id="prezime" name="prezime" type="text">
+          <br>
+          <span id="greskaPrezime"></span>
+          <br>
+        </p>
+        <p>
+          <label for="email">Email adresa:</label>
+          <input id="email"  name="email" type="email">
+          <br>
+          <span id="greskaEmail"></span>
+          <br>
+        </p>
+        <p>
+          <label for="password">Unesite šifru:</label>
+          <input id="password"  name="password" type="password">
+          <br>
+          <span id="greskaSifra"></span>
+          <br>
+        </p>
+        <p>
+          <input name="uslovi" type="checkbox" value="">Pročitao/la sam uslove korišćenja i slažem se sa njima.
+          <br>
+          <span id="greskaUslov"></span>
+          <br>
+        </p>
+        <p>
+          <input for="registracija" type="submit" id="dugme1" value="Registruj se">
+        </p>
+        </form>
+      </div>
+
+      <div class="div2">
+        <form name="prijava" onsubmit="return validateP()">
+          <br>
+          <br>
+          <p><h1>Imaš nalog? Prijavi se ovde!</h1></p>
+          <br>
+          <br>
+          <p>
+            <label for="emailP">Email adresa:</label>
+            <input id="emailP" name="emailP" type="email">
+          <br>
+          <span id="greskaEmailP"></span>
+          <br>
+        </p>
+          <p>
+            <label for="passwordP">Unesite šifru:</label>
+            <input id="passwordP" name="passwordP" type="password">
+            <br>
+            <span id="greskaSifraP"></span>
+            <br>
+          </p>
+          <p>
+            
+            <input for="prijava" type="submit" id="dugme2" value="Prijavi se">
+  
+          </p>
+          </form>
+      </div>
+      </div>
+      
+
+      <div class="funkcije">
+        <div>
+      <button onclick="pronadjiLokaciju()" style=" border-radius: 3px; height: 20px; width: 60px; border: 0px;"  value="Saznaj više"><b><i>Lokacija:</i></b> </button>
+      <p id="lokacija"></p>
+        </div>
+        <ul>
+        <li onclick="Vrh()">Vrati me na vrh</li>
+        </ul>
+      </div>
+<hr>
+<footer>
+  <div class="poslednji">
+    <div id="prvi">
+      <h4><i>PRONAĐITE NAS<i></i></h4><br>
+     <h4> Bambi Adresa:</h4><br>
+      <h4>Koncern „Bambi“ a.d.</h4> <br>
+        <h4>Đure Đakovića bb</h4><br>
+        <br>
+    </div>
+
+      <div id="drugi">
+        <h4><i>Kontakt telefon:<i></h4><br>
+       <h4> 065272828</h4><br>
+        <h4>Besplatna linije za potrošače:</h4> <br>
+          <h4>0653832028</h4><br>
+          <br>
+      </div>
+ </div>
+   </footer>
+</body>
+</html>
