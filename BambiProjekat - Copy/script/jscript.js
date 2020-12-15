@@ -12,6 +12,7 @@ function ispisiLokaciju(koordinate){
    document.getElementById("lokacija").innerHTML = 
         "Geografska širina: " + koordinate.coords.latitude + "<br>" +
         "Geografska dužina " + koordinate.coords.longitude;
+           
 }
 
 
